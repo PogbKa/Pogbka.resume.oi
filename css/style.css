@@ -248,7 +248,9 @@ h4 {
   html {
     font-size: 2.5px;
   }
-
+  body {
+    background: none;
+  }
   .wraper-out {
     max-width: 420px;
   }
