@@ -250,6 +250,7 @@ h4 {
   }
   body {
     background: none;
+    width: 100%;
   }
   .wraper-out {
     max-width: 420px;
