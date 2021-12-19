@@ -331,10 +331,34 @@ h4 {
 
   .wraper-out {
     max-width: 420px;
+    min-height: 100%;
   }
 
   .section-right .section-work-skill {
     padding-left: 12.5rem;
+  }
+
+  .bi {
+    font-size: 15.625rem;
+  }
+
+  .open-button {
+    border: transparent;
+    width: 18.75rem;
+    bottom: 9.375rem;
+    height: 18.75rem;
+  }
+  @keyframes button-call {
+    from {
+      width: 18.75rem;
+      height: 18.75rem;
+      opacity: 0.8;
+    }
+    to {
+      width: 21.875rem;
+      height: 21.875rem;
+      opacity: 0;
+    }
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
