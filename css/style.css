@@ -315,6 +315,9 @@ h4 {
 .form-popup .form-container a {
   padding: 0.9375rem 1.25rem;
 }
+.form-popup .form-container .bi-x-lg {
+  color: rgba(32, 32, 38, 0.5);
+}
 
 @media (min-width: 1px) and (max-width: 576px) {
   html {
