@@ -315,9 +315,6 @@ h4 {
 .form-popup .form-container a {
   padding: 0.9375rem 1.25rem;
 }
-.form-popup .form-container a:hover i {
-  font-size: 8.4375rem;
-}
 
 @media (min-width: 1px) and (max-width: 576px) {
   html {
@@ -339,7 +336,7 @@ h4 {
   }
 
   .bi {
-    font-size: 15.625rem;
+    font-size: 12.5rem;
   }
 
   .open-button {
@@ -373,6 +370,10 @@ h4 {
   .section-right .section-work-skill {
     padding-left: 12.5rem;
   }
+
+  a:hover i {
+    font-size: 8.4375rem;
+  }
 }
 @media (min-width: 768px) and (max-width: 992px) {
   html {
@@ -385,6 +386,10 @@ h4 {
 
   .section-right .section-work-skill {
     padding-left: 15.625rem;
+  }
+
+  a:hover i {
+    font-size: 8.4375rem;
   }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -399,6 +404,10 @@ h4 {
   .section-right .section-work-skill {
     padding-left: 15.625rem;
   }
+
+  a:hover i {
+    font-size: 8.4375rem;
+  }
 }
 @media (min-width: 1200px) and (max-width: 1600px) {
   html {
@@ -412,6 +421,10 @@ h4 {
   .section-right .section-work-skill {
     padding-left: 15.625rem;
   }
+
+  a:hover i {
+    font-size: 8.4375rem;
+  }
 }
 @media (min-width: 1600px) {
   html {
@@ -424,5 +437,9 @@ h4 {
 
   .section-right .section-work-skill {
     padding-left: 15.625rem;
+  }
+
+  a:hover i {
+    font-size: 8.4375rem;
   }
 }
